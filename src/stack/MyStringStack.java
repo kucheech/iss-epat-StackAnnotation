@@ -42,7 +42,7 @@ public class MyStringStack {
         //return v.lastElement();
     }
     public boolean isEmpty() {
-        return !v.isEmpty(); //change
+        return v.isEmpty(); //unchange
     }
     public void clear() {
         v = new Vector<String> ();
